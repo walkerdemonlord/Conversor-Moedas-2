@@ -15,6 +15,7 @@ html {
 }
 
 .icone {
+    margin-top: 10px;
     width: 100px;
     height: auto;
 }
@@ -44,10 +45,16 @@ html {
 }
 
 .dinheiro {
+    width: 180px;
     text-align: center;
     align-items: center;
     margin-top: 100px;
     font-size: 12px;
     background-color: whitesmoke;
     border-radius: 20px;
+}
+.valor {
+    font-size: 22px;
+    font-weight: 800;
+    color: blue;
 }

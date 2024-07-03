@@ -26,7 +26,7 @@
         <option value="yuan">Yuan</option>
     </select>
 
-    <input type="number" name="valor-total" id="valor-total"></input> 
+    <input type="number" name="valor-total" id="valor-total" step="0.01"/> 
            
 </header>
 
@@ -34,30 +34,31 @@
 
     <div class="dinheiro">
         <img class="icone" src="Assets/bandeira-brasil.png" alt="ícone-brasil">
-        <p id="valor-real"></p>
+        <p class="valor" id="valor-real"></p>
         <h1>BRL</h1>
     </div>
     
     <div class="dinheiro">
         <img class="icone" src="Assets/bandeira-eua.png" alt="ícone-eua">
-        <p id="valor-dólar"></p>
+        <p class="valor" id="valor-dolar"></p>
         <h1>USD</h1>
     </div>
     
     <div class="dinheiro">
         <img class="icone" src="Assets/bandeira-inglaterra.png" alt="ícone-inglaterra">
-        <p id="valor-libra"></p>
+        <p class="valor" id="valor-libra"></p>
         <h1>GBP</h1>
     </div>
 
     <div class="dinheiro">
         <img class="icone" src="Assets/bandeira-china.png" alt="ícone-china">
-        <p id="valor-yuan"></p>
+        <p class="valor" id="valor-yuan"></p>
         <h1>RMB</h1>
         
     </div>
 
 </main>
 
+<script src="script.js"></script>
 </body>
 </html>
