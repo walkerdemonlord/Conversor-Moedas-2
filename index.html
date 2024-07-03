@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Conversor de Moedas</title>
+
+</head>
+<body>
+
+<header class="cabeçalho">
+    
+    <img id="icone-conversor" src="Assets/ícone-conversor.png" alt="icone-conversor"><br>
+    
+    <select name="moedas" id="moedas">
+        <option value="real">Real</option>
+        <option value="dolar">Dólar</option>
+        <option value="libra">Libra</option>
+        <option value="yuan">Yuan</option>
+    </select>
+
+    <input type="number" name="valor-total" id="valor-total"></input> 
+           
+</header>
+
+<main class="conversão">
+
+    <div class="dinheiro">
+        <img class="icone" src="Assets/bandeira-brasil.png" alt="ícone-brasil">
+        <h1>BRL <p id="valor-real"></p></h1>
+    </div>
+    <div class="dinheiro">
+        <img class="icone" src="Assets/bandeira-eua.png" alt="ícone-eua">
+        <h1>USD <p id="valor-dólar"></p></h1>
+    </div>
+    <div class="dinheiro">
+        <img class="icone" src="Assets/bandeira-inglaterra.png" alt="ícone-inglaterra">
+        <h1>GBP <p id="valor-libra"></p></h1>
+    </div>
+    <div class="dinheiro">
+        <img class="icone" src="Assets/bandeira-china.png" alt="ícone-china">
+        <h1>RMB <p id="valor-yuan"></p></h1>
+    </div>
+
+</main>
+
+</body>
+</html>

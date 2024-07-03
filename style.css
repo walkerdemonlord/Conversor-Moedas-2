@@ -1,0 +1,47 @@
+html {
+    padding: 20px;
+    background-image: url(Assets/Global-Finance.png);
+}
+
+#icone-conversor {
+    width: 200px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.icone {
+    width: 100px;
+    height: auto;
+}
+
+#valor-total {
+    width: 120px;
+    height: 46px;
+    text-align: center;
+}
+
+#moedas {
+    height: 50px;
+    text-align: center;
+}
+
+.cabeçalho {
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.conversão {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dinheiro {
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 12px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
