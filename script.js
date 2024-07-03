@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function conversao() {
         const valor = parseFloat(valorInput.value);
-        if (isNaN(valor) || !taxasCambio.USD || !taxasCambio.GBP || !taxasCambio.CNY || !taxasCambio.BRL) {
+        if (isNaN(valor) || !taxasCambio.USD || !taxasCambio.GBP || !taxasCambio.CNY || !taxasCambio.BRL || !taxasCambio.EUR) {
             return;
         }
 
@@ -29,10 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
         let resultadoDolar = valor * taxasCambio.USD / taxasCambio.BRL; // Converte de BRL para USD
         let resultadoLibra = valor * taxasCambio.GBP / taxasCambio.BRL; // Converte de BRL para GBP
         let resultadoYuan = valor * taxasCambio.CNY / taxasCambio.BRL; // Converte de BRL para CNY
+        let resultadoEuro = valor * taxasCambio.EUR / taxasCambio.BRL;
 
         document.querySelector('#valor-real').textContent = resultadoReal.toFixed(2); // Exibe o valor original em BRL
         document.querySelector('#valor-dolar').textContent = resultadoDolar.toFixed(2);
         document.querySelector('#valor-libra').textContent = resultadoLibra.toFixed(2);
         document.querySelector('#valor-yuan').textContent = resultadoYuan.toFixed(2);
+        document.querySelector('#valor-euro').textContent = resultadoEuro.toFixed(2);
     }
 });
