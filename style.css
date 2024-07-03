@@ -1,6 +1,10 @@
 html {
     padding: 20px;
     background-image: url(Assets/Global-Finance.png);
+    background-position: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 #icone-conversor {
@@ -19,11 +23,13 @@ html {
     width: 120px;
     height: 46px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #moedas {
     height: 50px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .cabeçalho {
@@ -42,6 +48,6 @@ html {
     align-items: center;
     margin-top: 100px;
     font-size: 12px;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     border-radius: 20px;
 }
